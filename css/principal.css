@@ -1,0 +1,130 @@
+body {
+    padding-top: 70px;
+}
+
+.menu {
+	margin-bottom: 50px;
+}
+
+.navbar-nav {
+	cursor: pointer;
+}
+
+.menuConfig {
+	display: none;
+	position: fixed;
+	top: 50px;
+	left: 0;
+	width: 150px;
+    padding: 15px;
+    background-color: #222;
+    color: #9d9d9d;
+}
+
+.menuConfig .opcao.tipo {
+	display: block;
+}
+
+.menuConfig p {
+	margin-top: 15px;
+}
+
+.menuConfig .opcao {
+    padding: 5px 10px;
+}
+
+.menuConfig .btn {
+	display: block;
+	margin-top: 15px;
+	color: #9d9d9d;
+}
+
+.container {
+	text-align: center;
+}
+
+.principal {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.linha {
+	padding: 10px 0;
+}
+
+.alternativas {
+	margin: 20px 0;
+}
+
+.botaoAlternativa {
+	height: 30px;
+	width: 30px;
+	padding: 0;
+	border: none;
+	margin: 5px;
+}
+
+.botaoAlternativa:focus {
+	outline: none;
+}
+
+
+.guessGroup {
+	display: inline-block;
+}
+
+.guess {
+	height: 30px;
+	width: 30px;
+	margin: 5px;
+    display: inline-block;
+    vertical-align: middle;
+	background-color: white;
+    padding: 0;
+    border: 1px solid lightgray;
+    text-align: center;
+    line-height: 29px;
+    background-color: white;
+}
+
+.guess:focus {
+	outline-color: gray;
+}
+
+.botaoEnviar {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+
+.resultado {
+	display: inline-block;
+	width: 80px;
+    vertical-align: middle;
+}
+
+.resultadoBolinha {
+	border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    margin: 0 4px;
+    display: inline-block;
+}
+
+.posicaoCorreta {
+	background-color: black;
+}
+
+.valorCorreto {
+	background-color: lightgray;
+}
+
+.mostraSenha {
+	display: none;
+	padding: 20px 0;
+}
+
+.imgFlango {
+	width: 200px;
+}

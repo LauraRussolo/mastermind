@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/principal.css">
+	<title>Joguim</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a id="arrego">Pedir Arrego</a></li>
+            <li><a id="config">Configurações</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="menuConfig">
+    	<form action="">
+	    	<span class="opcao tipo"><input type="radio" name="tipo" value="cores"> cores</span>
+			<span class="opcao tipo"><input type="radio" name="tipo" value="numeros"> números</span>
+	    	<p>Quantidade de cores/números:</p>
+			<span class="opcao"><input type="radio" name="qtd" value="3"> 3</span>
+			<span class="opcao"><input type="radio" name="qtd" value="4"> 4</span>
+			<span class="opcao"><input type="radio" name="qtd" value="6"> 6</span>
+			<span class="opcao"><input type="radio" name="qtd" value="8"> 8</span>
+			<span class="opcao"><input type="radio" name="qtd" value="10"> 10</span>
+			<button type="submit" class="btn" id="btnConfig">ok</button>
+		</form>
+    </div>
+
+	<div class="container">
+
+		<div class="palpitesAnteiores" id="palpitesAnteiores">
+
+		</div>
+
+
+		<div class="linha">
+			<div class="guessGroup" id="guessGroup">
+
+			</div>			
+			<div class="botaoEnviar">
+				<button class="btn" id="btnGuess">ok</button>
+			</div>
+		</div>
+
+		<div class="btn-group alternativas" id="botoesAlternativas">
+
+		</div>
+
+		<div class="mostraSenha">
+			<p>A senha é:</p>
+			<p id="senhaDoArregao"></p>
+			<img src="flango.gif" class="imgFlango">
+		</div>
+
+		<p>
+			<button class="btn" id="btnSenha">Nova senha</button>
+		</p>	 
+				
+		<script src="js/jquery.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/logica.js"></script>
+	</div>
+</body>
+</html>
